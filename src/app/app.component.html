@@ -1,3 +1,4 @@
 <h1>
-  {{title}}
+  <button (click)="login()"> Login here </button>
+  <button (click)="getData()" *ngIf="isAuthenticated()">Get Data</button>
 </h1>
